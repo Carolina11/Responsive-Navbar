@@ -1,1 +1,13 @@
 /* Home Mobile Styles */
+@media (max-width: 425px){
+
+  body {
+    background-color:#0f0;
+  }
+  .circle {
+    border-radius: 50%;
+  	width: 100px;
+  	height: 100px;
+    background: #f00;
+  }
+}

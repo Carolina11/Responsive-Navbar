@@ -19,7 +19,7 @@ export default function createRoutes() {
        },
      },
      {
-      path: '/',
+      path: '/About',
       name: 'about',
       getComponent(nextState, comMod) {
         import('containers/About')

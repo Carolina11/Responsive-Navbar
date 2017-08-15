@@ -7,21 +7,21 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-export class Blog extends React.PureComponent {
+import './style.css';
+import './styleM.css';
+
+export default class About extends React.PureComponent {
   render() {
     return (
-      <div>
-        <Helmet title="Blog" meta={[ { name: 'description', content: 'Description of Blog' }]}/>
-        <header>
-          <nav>
-          <Link to="/"> Home </Link>
-          <Link to="/Blog"> Blog </Link>
-          </nav>
-        </header>
-        <main> hiya   </main>
-        <footer>  </footer>
+      <div className="container">
+        <Helmet title="About" meta={[ { name: 'description', content: 'Description of About' }]}/>
 
+        //Remove this line and you can start writing your code here.
       </div>
     );
   }
 }
+
+About.contextTypes = {
+  router: React.PropTypes.object
+};
