@@ -6,6 +6,7 @@
 
 import React from 'react';
 import Helmet from 'react-helmet';
+import {Link} from 'react-router';
 
 import './style.css';
 import './styleM.css';
@@ -16,7 +17,7 @@ export default class About extends React.PureComponent {
       <div className="container">
         <Helmet title="About" meta={[ { name: 'description', content: 'Description of About' }]}/>
 
-        //Remove this line and you can start writing your code here.
+        <Link to="/">Home</Link>
       </div>
     );
   }

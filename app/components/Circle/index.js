@@ -13,7 +13,11 @@ export default class Circle extends React.PureComponent {
   render() {
     return (
       <div>
-
+        <div className="circleBox">
+          <div className="circle">
+            <div className="circleText">small</div>
+          </div>
+        </div>
       </div>
     );
   }
