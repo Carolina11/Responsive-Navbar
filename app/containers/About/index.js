@@ -18,7 +18,7 @@ export class Blog extends React.PureComponent {
           <Link to="/Blog"> Blog </Link>
           </nav>
         </header>
-        <main>    </main>
+        <main> hiya   </main>
         <footer>  </footer>
 
       </div>
